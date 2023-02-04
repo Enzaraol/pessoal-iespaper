@@ -1,0 +1,275 @@
+.topper {
+    width: 100%;
+    height: 80px;
+ 
+    position: fixed;
+    background-color: #fcebb0;
+}
+
+.box-topper {
+    margin: 0 15px;
+    padding-top: 20px;
+    
+}
+
+.pesquisa {
+    position: absolute;
+    left: 500px;
+    font-weight: 200;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+}
+
+.pesquisa a {
+    text-decoration: none;
+    color:#000;
+}
+
+.pesquisa a i {
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.pesquisa ul {
+    display: none;
+
+}
+
+.pesquisa:hover>ul {
+    display: block;
+
+}
+
+.pesquisa li {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border: 5px solid #fff;
+    background-color: #fcebb0;
+}
+
+
+
+.icons ul li h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    font-weight: 100;
+
+}
+
+.logo {
+    position: absolute;
+    left: 70px;
+    
+
+    font-weight: 200;
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+}
+
+/* icones */
+
+.icons {
+    position: absolute;
+    right: 50px;
+
+}
+
+.icons li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.icons li h2 {
+    font-size: 25px;
+    color: #888;
+}
+
+.icons a {
+    color: #888;
+}
+
+/* container logo */
+.container-logo {
+    width: 100%;
+    height: 450px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #b9ddf3;
+}
+
+
+
+/* meio */
+
+.main-container {
+    margin: 0 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
+
+.main-title {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-weight: 200;
+    font-size: 55px;
+    color: #463e3e;
+
+    margin: 25px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(187, 184, 184);
+}
+
+.main-box {
+    width: 100%;
+    height: 250px;
+    clear:both;
+    display: flex;
+    justify-content: center;
+}
+
+.main-button {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+    border-radius: 25px;
+    background-color: #b9ddf3;
+    color: #fff;
+    transition: .5s;
+   
+    
+}
+
+.button:hover {
+    background-color: #fff;
+    border: 1px solid #b9ddf3;
+    color:  #b9ddf3
+
+}
+
+
+.main-imgs {
+    float: left;
+    margin: 10px 40px;
+    
+}
+
+.main-subject {
+    text-decoration: none;
+    text-align: center;
+    color:#888;
+
+}
+
+.main-subject h3 {
+    padding-top: 10px;
+}
+
+.main-subject h4 {
+    color: #000;
+    font-weight: 800;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.main-subject p {
+    padding: 5px 0;
+}
+
+
+.button-back {
+    width: 40px;
+    height: 40px;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #b9ddf3;
+}
+
+
+#logos {
+    width: 450px;
+    height: 450px;
+}
+
+#canetas {
+    width: 100%;
+    height: 100px;
+}
+
+/* footer */
+
+.div-footer {
+    width: 100%;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: #b9ddf3;
+
+}
+
+.container-info {
+    height: 100px; 
+    padding: 20px 15px;
+
+    text-align: center;
+}
+
+.info-adress {
+    padding-top: 20px;
+}
+
+.info-terms {
+    clear: both;
+    display: flex;
+    justify-content: center;
+}
+
+.terms {
+    float: left;
+    padding-top: 20px;
+    margin-left: 20px;
+    
+
+}
+
+.terms h3 a {
+    text-decoration: none;
+    color: #463e3e;
+}
+
+.terms h3 a:hover {
+    text-decoration:underline
+}
